@@ -1,2 +1,4 @@
 # Inception-LSTM
-Legendagem de imagens automáticas utilizando Inception-LSTM
+Legendagem de imagens automáticas utilizando Inception-LSTM e VGG16
+
+A evolução da Visão Computacional e Aprendizado de Máquina permite que técnicas de descrição de imagens em linguagem natural sejam mais eficientes e precisas, por meio de redes neurais profundas. Este estudo utilizou uma estrutura codificador-decodificador para identificação e legendagem de objetos, através de uma imagem de entrada. O modelo proposto utilizou as arquiteturas VGG16 e Inception-V3 como codificadores e LSTM como decodificador. Para a realização dos experimentos, foi utilizado o conjunto de dados Flickr8k, possuindo 8.000 imagens. O modelo foi avaliado pelas métricas Bleu, Meteor, CIDEr e Rouge. Alcançando 58,40% de precisão conforme a métrica Bleu, garantindo assim descrições compreensíveis para o ser humano.Palavras-chave:Aprendizado de Máquina. Aprendizado Profundo. Redes Neurais Convolucionais.  Memória Longa de Curto Prazo. Legendagem de Imagens.
